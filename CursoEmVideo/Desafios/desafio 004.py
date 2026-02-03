@@ -1,0 +1,5 @@
+v = input('Digite algo: ')
+print('O tipo primitivo desse vale {}'.format(type(v)))
+print(v.isnumeric())
+print(v.isalnum())
+print(v.isalpha())
